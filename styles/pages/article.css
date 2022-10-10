@@ -1,0 +1,62 @@
+.content-container {
+  display: grid;
+  grid-template-columns: 62.5% 5% 32.5%;
+}
+
+.article-container {
+  margin-left: 5%;
+}
+
+.article-container .description {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.article-container .title {
+  font-size: 40px;
+  margin: 0 0 20px 20px;
+}
+
+.article-container .date {
+  margin-bottom: 10px;
+}
+
+.article-container .img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.comments-container {
+  margin-right: 40px;
+}
+
+.comments-container hr {
+  width: 65%;
+  margin-right: 30px;
+}
+
+.comments-container .comment {
+  border: 1px solid black;
+  padding: 10px ;
+}
+
+.comments-container form {
+  white-space: nowrap; 
+}
+
+.comments-container form,
+.comments-container .comment-input {
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.comments-container form input[type="submit"] {
+  width: 20%;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.date {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: right;
+}

@@ -1,0 +1,50 @@
+.articles-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 20px;
+}
+
+.article-container {
+  width: 95%;
+  padding: 15px;
+  margin: 6px auto;
+  border: 1px solid black;
+}
+
+
+.img-container {
+  display: block;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.article-img {
+  display: block;
+  width: 100%;
+}
+
+.bottom-row {
+  margin-top: 15px;
+  vertical-align: middle;
+}
+
+.title {
+  display: inline-block;
+  font-size: 30px;
+  margin: 20px 0 0 18px;
+}
+
+.author {
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 0 0 18px;
+}
+
+.edit-btn {
+  margin-left: 5px;
+}
+
+form {
+  display: inline;
+}

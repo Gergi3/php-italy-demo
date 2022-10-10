@@ -1,0 +1,14 @@
+.navbar-global {
+  padding: 20px;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.navbar-btn {
+  display: inline-block;
+}
+
+.navbar-global form {
+  display: inline;
+}
